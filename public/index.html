@@ -3,5 +3,18 @@
         <p>{{message}}</p>
         <input v-model="message">
     </div>
+
+    <h2>Martin Test 1</h2>
+
+    <div id="martin">
+        <div v-component="image"></div>
+    </div>
+
+    <script type="text/x-template" id="image-template">
+        <div class="image">
+            <img src="{{src}}" alt="{{title}}">
+        </div>
+    </script>
+
     <script type="text/javascript" src="index.js"></script>
 </html>
